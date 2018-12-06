@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>H.P. Lovecraft Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/script/triviascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"> <img src="assets/images/header.jpg" alt="Eldritch Lighthouse" width="100%"
+                height="180px"> </a>
+        
+    </header>
+    
+    <div class="game-Container">
+
+        <h1>H.P. Lovecraft Trivia</h1>
+        <button class="button button5">Start!</button>
+
+        
+        <div class="questionBox">
+            <p class="timer">Time Remaining:
+                <span id="timer">30</span>
+            </p>
+            <br>
+            <br>
+            <p class="question">
+                <span id="question"></span>
+            </p>
+            <br>
+            <br>
+            <p class="first-answer"> A.
+                <span class="answer" id="answerOne"></span>
+            </p>
+            <p class="answerP"> B.
+                <span class="answer" id="answerTwo"></span>
+            </p>
+            <p class="answerP"> C.
+                <span class="answer" id="answerThree"></span>
+            </p>
+            <p class="answerP"> D.
+                <span class="answer" id="answerFour"></span>
+            </p>
+        </div>
+        
+        <div class="answerBox">
+            <p class="message">
+                <span id="message"></span>
+            </p>
+
+            <span id="image"></span>
+
+        </div>
+       
+        <div class="finalScreen">
+            <p class="stats">
+                <span id="correct"> </span>
+                <br><br>
+                <span id="incorrect"> </span>
+                <br><br>
+                <span id="unanswered"> </span>
+                <br><br>
+                <button class="restart">Restart!</button>
+            </p>
+        </div>
+        
+
+    </div>
+    
+    <footer>
+
+        © 2018 Ryan Pascoe
+
+    </footer>
+</body>
+
+</html>
